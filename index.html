@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="output.css">
+</head>
+
+<body class="bg-gray-100" >
+<nav>
+<ul class="flex space-x-5 bg-blue-300 p-4 justify-end items-center">
+<img src="images/recruitimage.jpg" class="w-11 h-11 absolute left-1">
+<div class="absolute left-5 h-16 w-16 flex items-center p-3 font-bold font-mono md:text-[21px]">RecruiterHub</div>
+<li class="font-semibold hover:underline hover:decoration-2 xsm:invisible sm:invisible md:visible md:text-[21px]"><a href="#">Home</a></li>
+<li class="font-semibold hover:underline hover:decoration-2 xsm:invisible sm:invisible md:visible md:text-[21px]"><a href="#">About</a></li>
+<button class="bg-blue-400 p-2 rounded-full font-semibold hover:bg-blue-300 hover:font-serif  xsm:invisible sm:invisible md:visible md:text-[21px]">SignIn</button>
+<button class="bg-blue-400 p-2 rounded-full font-semibold hover:bg-blue-300 hover:font-serif xsm:invisible sm:invisible md:visible md:text-[21px]">SignUp</button>
+<button id="btn">
+<ion-icon name="menu-outline" class="text-[30px] cursor-pointer md:invisible"></ion-icon>
+</button>
+</ul>
+</nav>
+<div class="hamburger_menu absolute">
+<ul class="flex flex-col space-y-4 text-[15px]  p-2 bg-blue-300 .hidden   md:invisible w-[163px] border-black border-2"  id="hamburgermenu">
+  <li class="font-semibold hover:underline hover:decoration-2 border-black border-2 p-2 text-center"><a href="#">Home</a></li>
+  <li class="font-semibold hover:underline hover:decoration-2 border-black border-2 p-2 text-center"><a href="#">About</a></li>
+  <li class="border-black border-2 p-2 text-center"><button class="bg-blue-400 pl-4 pr-4 pt-1 pb-1 rounded-full font-semibold hover:bg-blue-300 hover:font-serif md:bg-slate-500">SignIn</button></li>
+  <li class="border-black border-2 p-2 text-center"><button class="bg-blue-400 pl-4 pr-4 pt-1 pb-1 rounded-full  font-semibold hover:bg-blue-300 hover:font-serif md:bg-slate-500">SignUp</button>
+  </ul>
+</div>
+<!-- Top section -->
+<div class="top_section flex flex-col justify-center items-center order-2 md:flex-row-reverse">
+<img src="images/recruiter.jpg" class="m-3 xsm:w-80 mx-auto lg:w-[500px] lg:h-[366px] lg:m-3">
+<div class="md:flex md:flex-col md:m-4 lg:w-rev">
+<h1 class="font-bold text-lg lg:text-[1.3rem] lg:mb-3 lg:mt-8">HIRE THE BEST TECH TALENT IN WORLD</h1>
+<p class="w-80 lg:text-[1.5rem]">We have startup ready candidates from all around the world,unique details you can't find anywhere else,and all the tools you need to hire.Get everything setup for free.</p>
+<button class="w-28 p-3 m-4  bg-blue-400 rounded-full hover:bg-blue-300 hover:font-semibold lg:w-32 lg:text-lg">Start Hiring</button>
+</div>
+</div>
+
+<!-- Second Section -->
+<div class="second_section flex flex-col justify-center items-center mt-2 ">
+<div class="firstdiv flex flex-col justify-center items-center mt-5 md:flex-row lg:w-screen ">
+  
+  <img src="images/image1.png" class="w-64 m-3 md:m-10 lg:w-[395px]">
+  <div class="md:flex md:flex-col">
+   <h1 class="w-72 m-3 font-bold lg:w-[418px] lg:text-[30px]">Unique candidate details you can't find anywhere else</h1>
+   <p class="flex w-72 lg:w-[27rem] lg:text-[24px] "><img src="images/icon1.svg" class="p-3">Job search status- we'll tell you if a candidate is ready to interview or open to offers.</p>
+   <p class="flex w-72 mt-3 lg:w-[27rem] lg:text-[24px]"><img src="images/icon2.svg" class="p-3">Skills & experience - we give candidates the ability to showcase this in unique ways, like detailing their biggest accomplishment.</p>
+   <p class="flex w-72 mt-3 md:mb-4 lg:w-[27rem] lg:text-[24px]"><img src="images/icon3.svg" class="p-3">Remote preferences - search by candidates who are open to remote work and see what kind of remote culture they're looking for.</p>
+   <button class="w-28 p-3 m-3 bg-blue-400 rounded-full hover:bg-blue-300 hover:font-semibold md:m-auto lg:w-32 lg:text-lg lg:mb-6">Find Talent</button>
+</div>
+</div>
+
+<div class="seconddiv flex flex-col justify-center items-center mt-5 md:flex-row-reverse">
+  <img src="images/image2.png" class="w-64 lg:w-[395px] mt-[2rem] ">
+  <div class="md:flex md:flex-col">
+   <h1 class="w-72 m-3 font-bold md:w-80 lg:w-[418px] lg:text-[30px]">Message candidates as much as you need</h1>
+   <p class="flex w-72 lg:w-[27rem] lg:text-[24px]">Reach out and pitch your opportunity to candidates or respond to applications, all for free. Messages are unlimited.</p>
+</div>
+</div>
+<div class="thirddiv flex flex-col justify-center items-center mt-5 md:flex-row">
+  <img src="images/image3.png" class="w-64 m-3 lg:w-[395px] mt-[2rem]">
+  <div class="md:flex md:flex-col">
+   <h1 class="w-72 m-3 font-bold lg:w-[418px] lg:text-[30px] lg:mt-[3rem]">Post a job for free</h1>
+   <p class="flex w-72 lg:w-[27rem] lg:text-[24px]">Post to our job board and let the applications pour in. We’ll actively recommend your job to relevant candidates. Posting a job is free, and you can always promote it for more views.</p>
+</div>
+</div>
+<div class="fourthdiv flex flex-col justify-center items-center mt-5 md:flex-row-reverse">
+  <img src="images/image4.jpg" class="w-64 m-3 lg:w-[395px] mt-[2rem]">
+  <div class="md:flex md:flex-col">
+   <h1 class="w-72 m-3 font-bold lg:w-[418px] lg:text-[30px]">Increased candidate engagement</h1>
+   <p class="flex w-72 lg:w-[27rem] lg:text-[24px]">Reach out to candidates with automatically generated personalized emails. Leverage your extra bandwidth to provide a world class candidate experience to attract and retain the best talent.</p>
+</div>
+</div>
+</div>
+
+
+<!-- Third section -->
+<div class="third_section flex flex-col justify-center items-center mt-5">
+<h1 class="font-bold w-64 mb-4 text-[1.5rem] md:w-[35rem]  lg:w-[50rem] lg:text-[3rem]">Top companies and startups are building their teams with us.</h1>
+<div class="flex mb-2 md:m-6 md:space-x-7 lg:space-x-14" >
+  <img src="images/logo1.png" class="w-16 animate-bounce m-2 md:w-24">
+  <img src="images/logo2.png" class="w-20 h-14 animate-pulse m-2 md:w-32 md:h-28">
+  <img src="images/logo3.jpg" class="w-16 h-16 m-1 animate-bounce md:w-24 md:h-36">
+  <img src="images/logo4.jpg" class="w-16 h-16 m-1 animate-pulse md:w-28 md:h-28">
+</div>
+</div>
+<div class="footer flex justify-center bg-black text-white p-4 mt-4">
+<p class="text-[15px] md:text-[27px] lg:text-[35px]">Copyright©️2023 RecruiterHub. All Rights Reserved.</p>
+</div>
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
