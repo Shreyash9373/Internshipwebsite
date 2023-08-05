@@ -5,7 +5,7 @@ module.exports = {
   content: ["./dist/*.{html,js}"],
   theme: {
     screens:{
-      'xsm':'375px',
+      'xsm':'320px',
       'sm': '640px',
       // => @media (min-width: 640px) { ... }
 
